@@ -1,6 +1,6 @@
 {
   "name": "i18n-feater",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightweight instance-based i18n for TypeScript.",
   "type": "module",
   "keywords": [
