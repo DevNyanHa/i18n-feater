@@ -1,10 +1,10 @@
 // Core
-export { I18N } from "./core"
-export type { I18nOptions } from "./core"
+export { I18N } from "./core.js"
+export type { I18nOptions } from "./core.js"
 
 // Locale
-export { Locale, normalize } from "./locales"
-export type { LocaleValue } from "./locales"
+export { Locale, normalize } from "./locales.js"
+export type { LocaleValue } from "./locales.js"
 
 // message
-export type { Messages } from "./message"
+export type { Messages } from "./message.js"
