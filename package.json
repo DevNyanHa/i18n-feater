@@ -1,7 +1,7 @@
 {
   "name": "i18n-feater",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Lightweight instance-based i18n for TypeScript.",
   "type": "module",
   "keywords": [
     "i18n",
@@ -9,6 +9,7 @@
     "localization",
     "translate"
   ],
+
   "homepage": "https://github.com/DevNyanHa/i18n-feater#readme",
   "bugs": {
     "url": "https://github.com/DevNyanHa/i18n-feater/issues"
@@ -18,9 +19,25 @@
     "url": "git+https://github.com/DevNyanHa/i18n-feater.git"
   },
   "main": "dist/index.js",
-  "files": ["dist"],
+
+  "files": [
+    "dist"
+  ],
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ],
+
   "scripts": {
     "build": "tsc",
-    "test": "npx ts-node src/i18n.test.ts"
+    "b": "npm run build",
+    "test": "node dist/i18n.test.js",
+    "t": "npm run test",
+    "check": "npm run build && npm run test",
+    "c": "npm run check"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
