@@ -1,6 +1,6 @@
 {
   "type": "commonjs",
   "dependencies": {
-    "i18n-feater": "^1.0.1"
+    "i18n-feater": "^1.0.3"
   }
 }

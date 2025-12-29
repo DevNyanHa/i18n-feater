@@ -1,4 +1,4 @@
-const { I18N, Messages } = require("i18n-feater");
+const { I18N, Messagesm, Locale } = require("i18n-feater");
 
 const i18n = I18N({
   fallbackLocale: Locale.EN,
