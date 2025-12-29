@@ -9,7 +9,6 @@
     "localization",
     "translate"
   ],
-
   "homepage": "https://github.com/DevNyanHa/i18n-feater#readme",
   "bugs": {
     "url": "https://github.com/DevNyanHa/i18n-feater/issues"
@@ -19,7 +18,6 @@
     "url": "git+https://github.com/DevNyanHa/i18n-feater.git"
   },
   "main": "dist/index.js",
-
   "files": [
     "dist"
   ],
@@ -27,7 +25,6 @@
     "**/*.test.ts",
     "**/*.spec.ts"
   ],
-
   "scripts": {
     "build": "tsc",
     "b": "npm run build",
@@ -39,5 +36,8 @@
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "i18n-feater": "^1.0.1"
   }
 }
