@@ -26,6 +26,7 @@
     "**/*.spec.ts"
   ],
   "scripts": {
+    "build:npm": "tsc",
     "build": "clean.bat && npm update && tsc",
     "b": "npm run build",
     "test": "node dist/i18n.test.js",
