@@ -26,7 +26,7 @@
     "**/*.spec.ts"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "clean.bat && npm update && tsc",
     "b": "npm run build",
     "test": "node dist/i18n.test.js",
     "t": "npm run test",
@@ -36,8 +36,5 @@
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "i18n-feater": "^1.0.1"
   }
 }
